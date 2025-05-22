@@ -1,0 +1,12 @@
+# Route::group(['namespace' => 'Api\V3', 'prefix' => 'delivery-man'], function () {
+#     Route::get('list', 'DeliverymanController@list');
+#     Route::get('list-with-details', 'DeliverymanController@listWithDetails');
+#     Route::get('show/{id}', 'DeliverymanController@show');
+# });
+
+
+GET http://127.0.0.1:8000/api/v3/delivery-man/list
+###
+GET http://127.0.0.1:8000/api/v3/delivery-man/list-with-details
+###
+GET http://127.0.1:8000/api/v3/delivery-man/show/1
